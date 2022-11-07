@@ -1,6 +1,8 @@
 import React,{useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import myImg from "../public/assets/my-pic.jpg";
+
 import Image from 'next/image'
 const About = () => {
     useEffect(() => {
@@ -26,7 +28,7 @@ const About = () => {
                     </div>
                     <div data-aos='fade-left' data-aos-offset='300'>
                     <div className="w-full h-auto m-auto shadow-xl bg-gray-900 shadow-gray-800  rounded-xl  flex items-center justify-center px-5 py-4 ease-in duration-200 hover:scale-105">
-                        <Image alt='/' width='400' height='400' className="rounded-l" src="/../public/assets/my-pic.jpg"></Image>
+                        <Image alt='/' width='400' height='400' className="rounded-l" src={myImg}></Image>
                     </div>
                     </div>
                 </div>
