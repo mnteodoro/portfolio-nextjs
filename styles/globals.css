@@ -1,0 +1,122 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities; 
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+#about-proj {
+  color: #5651e5;
+  text-decoration: none;
+  
+  display: inline-block;
+  position: relative;
+}
+#about-proj:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #5651e5;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+#about-proj:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+
+#nav-about, #nav-skills, #nav-projects, #nav-contact, #nav-home{ 
+  display: inline-block;
+  padding: 5px 10px; 
+  text-align: center;
+  position: relative;
+  margin: 10px;
+}
+
+#nav-about:before, #nav-skills:before, #nav-projects:before, #nav-contact:before, #nav-home:before { 
+  position: absolute;
+  content: '';
+  top: 0;
+  left: 0;
+  width: 50px; 
+  height: 20px; 
+  border-top: 5px solid #1fc87e;
+  border-left: 5px solid #1fc87e;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#nav-about:hover:before, #nav-skills:hover:before, #nav-projects:hover:before, #nav-contact:hover:before, #nav-home:hover:before { 
+  opacity: 1;
+  left: -5px; 
+  top: -5px;
+}
+
+#nav-about:after, #nav-skills:after, #nav-projects:after, #nav-contact:after, #nav-home:after { 
+  position: absolute;
+  content: '';
+  width: 50px;
+  height: 20px; 
+  right: 0;
+  bottom: 0;
+  border-bottom: 5px solid #5651e5;
+  border-right: 5px solid #5651e5;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+#nav-about:hover:after,
+#nav-skills:hover:after,
+#nav-contact:hover:after,
+#nav-home:hover:after,
+#nav-projects:hover:after { 
+  opacity: 1;
+  right: -5px;
+  bottom: -5px;
+}
+
+a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a:hover:after { 
+
+}
+
+
+@layer base { 
+  body { 
+    @apply bg-[#131628] text-[#1f2937] tracking-wide
+  }
+  
+  h1, h2, h3, h4, h5, h6 { 
+    @apply font-bold
+} 
+
+  h1 { 
+    @apply text-4xl sm:text-5xl md:text-6xl
+  }
+  h2 { 
+    @apply text-3xl sm:text-4xl
+}
+  li { 
+    @apply cursor-pointer
+  }
+  button { 
+    @apply shadow-xl shadow-gray-800 text-gray-900 rounded-xl uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] 
+  }
+}
