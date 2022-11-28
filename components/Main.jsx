@@ -27,7 +27,7 @@ const Main = () => {
                 </div>
 
                 <div className='shadow-gray-400 flex justify-center items-center p-4 cursor-pointer hover:scale-110 ease-in duration-300 pt-5'>
-                <a href='https://drive.google.com/drive/folders/14lzxyWCM-RLFbfWsa5sg3a-QCovVoG_y?usp=share_link'><p className='rounded-xl bg-[#5651e5] px-4 pt-2 pb-2 text-gray-900 hover:text-[#5651e5] hover:bg-gray-800 duration-300'>Download CV</p></a>
+                <a href='https://drive.google.com/drive/folders/14lzxyWCM-RLFbfWsa5sg3a-QCovVoG_y?usp=share_link'><p className='rounded-xl bg-[#5651e5] px-4 pt-2 pb-2 text-gray-900 hover:text-[#5651e5] hover:bg-gray-800 duration-300'>Download Resume</p></a>
                 </div>
 
                 </div>

@@ -19,7 +19,6 @@ export default function Home() {
       <div className='pb-20 lg:pb-1 md:pb-1 bg-[#131628]'><Main/></div>
       <div className='pb-40 lg:pb-1 md:pb-1 bg-[#131628]'><About/></div>
       <div className='pt-60 pb-28 lg:pb-1 lg:pt-1 md:pt-1 md:pb-1 bg-[#131628]'><Skills/></div>
-      <div className='pt-60 pb-16 lg:pb-1 lg:pt-1 md:pt-1 md:pb-1 bg-[#131628]'><Projects/></div>
       <Contact/>
       <div className='mt-40 pt-56 pb-16'><Footer/></div>
     </div>

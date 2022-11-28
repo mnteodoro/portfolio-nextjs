@@ -33,7 +33,7 @@ const Contact = () => {
                     <p className='uppercase pt-8 text-[#5651e5]'>Connect With Me</p>
                     <div className='flex gap-8 justify-center items-center max-w-[330px] m-auto py-4 pt-8'>
                     <a href='https://www.linkedin.com/in/mark-emmanuel-teodoro-a4b5b523a/'><div id='main-button' className='rounded-full text-gray-300 shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-gray-900 hover:bg-[#5ec383]'><FaLinkedinIn/></div></a>
-                <a href='https://github.com/markteodoro08' ><div id='main-button' className='rounded-full text-gray-300  shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-gray-900 hover:bg-[#5ec383]'><FaGithub/></div></a>
+                <a href='https://github.com/mnteodoro' ><div id='main-button' className='rounded-full text-gray-300  shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-gray-900 hover:bg-[#5ec383]'><FaGithub/></div></a>
                 <a href='mailto:mark.teodoro@eee.upd.edu.ph'><div id='main-button' className='rounded-full text-gray-300  shadow-lg shadow-gray-800 p-6 cursor-pointer hover:scale-110 ease-in duration-300 hover:text-gray-900 hover:bg-[#5ec383]'><AiOutlineMail/></div></a>
             </div>
             </div>
